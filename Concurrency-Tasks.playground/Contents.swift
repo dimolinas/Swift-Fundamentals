@@ -85,12 +85,11 @@ func getAPRForAllUsers(ids: [Int]) async throws -> [Int: Double]{
         }
         
     } )
-    
-    
     return userAPR
 }
 
-Task{
+
+Task.init {
     let userAPRs = try await getAPRForAllUsers(ids: ids)
     print(userAPRs)
 }
