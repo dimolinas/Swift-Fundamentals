@@ -5,5 +5,8 @@
         <page name='UrlSession'/>
         <page name='AsyncAwaitURLSesssion'/>
         <page name='Adapt-Handler-To-Async-Sequences'/>
+        <page name='BankAccount_Concurrency'/>
+        <page name='BankAccount_Locks'/>
+        <page name='BankAccount_BarrierQueues'/>
     </pages>
 </playground>
